@@ -1,0 +1,16 @@
+D:\Code Repo\WinForms_Graphics_Tests_Solutions\WinForms_Graphics_Tests\bin\Debug\net8.0-windows\WinForms_Graphics_Tests.exe
+D:\Code Repo\WinForms_Graphics_Tests_Solutions\WinForms_Graphics_Tests\bin\Debug\net8.0-windows\WinForms_Graphics_Tests.deps.json
+D:\Code Repo\WinForms_Graphics_Tests_Solutions\WinForms_Graphics_Tests\bin\Debug\net8.0-windows\WinForms_Graphics_Tests.runtimeconfig.json
+D:\Code Repo\WinForms_Graphics_Tests_Solutions\WinForms_Graphics_Tests\bin\Debug\net8.0-windows\WinForms_Graphics_Tests.dll
+D:\Code Repo\WinForms_Graphics_Tests_Solutions\WinForms_Graphics_Tests\bin\Debug\net8.0-windows\WinForms_Graphics_Tests.pdb
+D:\Code Repo\WinForms_Graphics_Tests_Solutions\WinForms_Graphics_Tests\obj\Debug\net8.0-windows\WinForms_Graphics_Tests.frmMain.resources
+D:\Code Repo\WinForms_Graphics_Tests_Solutions\WinForms_Graphics_Tests\obj\Debug\net8.0-windows\WinForms_Graphics_Tests.csproj.GenerateResource.cache
+D:\Code Repo\WinForms_Graphics_Tests_Solutions\WinForms_Graphics_Tests\obj\Debug\net8.0-windows\WinForms_Graphics_Tests.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code Repo\WinForms_Graphics_Tests_Solutions\WinForms_Graphics_Tests\obj\Debug\net8.0-windows\WinForms_Graphics_Tests.AssemblyInfoInputs.cache
+D:\Code Repo\WinForms_Graphics_Tests_Solutions\WinForms_Graphics_Tests\obj\Debug\net8.0-windows\WinForms_Graphics_Tests.AssemblyInfo.cs
+D:\Code Repo\WinForms_Graphics_Tests_Solutions\WinForms_Graphics_Tests\obj\Debug\net8.0-windows\WinForms_Graphics_Tests.csproj.CoreCompileInputs.cache
+D:\Code Repo\WinForms_Graphics_Tests_Solutions\WinForms_Graphics_Tests\obj\Debug\net8.0-windows\WinForms_Graphics_Tests.dll
+D:\Code Repo\WinForms_Graphics_Tests_Solutions\WinForms_Graphics_Tests\obj\Debug\net8.0-windows\refint\WinForms_Graphics_Tests.dll
+D:\Code Repo\WinForms_Graphics_Tests_Solutions\WinForms_Graphics_Tests\obj\Debug\net8.0-windows\WinForms_Graphics_Tests.pdb
+D:\Code Repo\WinForms_Graphics_Tests_Solutions\WinForms_Graphics_Tests\obj\Debug\net8.0-windows\WinForms_Graphics_Tests.genruntimeconfig.cache
+D:\Code Repo\WinForms_Graphics_Tests_Solutions\WinForms_Graphics_Tests\obj\Debug\net8.0-windows\ref\WinForms_Graphics_Tests.dll

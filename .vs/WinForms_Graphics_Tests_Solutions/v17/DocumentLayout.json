@@ -1,0 +1,72 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Code Repo\\WinForms_Graphics_Tests_Solutions\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{07110A6C-AB84-4D9A-90C7-5EB999F0BF03}|WinForms_Graphics_Tests\\WinForms_Graphics_Tests.csproj|d:\\code repo\\winforms_graphics_tests_solutions\\winforms_graphics_tests\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07110A6C-AB84-4D9A-90C7-5EB999F0BF03}|WinForms_Graphics_Tests\\WinForms_Graphics_Tests.csproj|solutionrelative:winforms_graphics_tests\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07110A6C-AB84-4D9A-90C7-5EB999F0BF03}|WinForms_Graphics_Tests\\WinForms_Graphics_Tests.csproj|D:\\Code Repo\\WinForms_Graphics_Tests_Solutions\\winforms_graphics_tests\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{07110A6C-AB84-4D9A-90C7-5EB999F0BF03}|WinForms_Graphics_Tests\\WinForms_Graphics_Tests.csproj|solutionrelative:winforms_graphics_tests\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\Code Repo\\WinForms_Graphics_Tests_Solutions\\WinForms_Graphics_Tests\\Form1.cs",
+              "RelativeDocumentMoniker": "WinForms_Graphics_Tests\\Form1.cs",
+              "ToolTip": "D:\\Code Repo\\WinForms_Graphics_Tests_Solutions\\WinForms_Graphics_Tests\\Form1.cs",
+              "RelativeToolTip": "WinForms_Graphics_Tests\\Form1.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwCAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T16:54:51.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\Code Repo\\WinForms_Graphics_Tests_Solutions\\WinForms_Graphics_Tests\\Form1.cs",
+              "RelativeDocumentMoniker": "WinForms_Graphics_Tests\\Form1.cs",
+              "ToolTip": "D:\\Code Repo\\WinForms_Graphics_Tests_Solutions\\WinForms_Graphics_Tests\\Form1.cs [Design]",
+              "RelativeToolTip": "WinForms_Graphics_Tests\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T16:31:59.079Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
