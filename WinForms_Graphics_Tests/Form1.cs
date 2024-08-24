@@ -4,19 +4,20 @@ namespace WinForms_Graphics_Tests
 {
 	public partial class frmMain : Form
 	{
-		private int ticks = 0;
-		private int timeLeft = 10;
-
 		private int hours = 0;
 		private int multiHours = 3600000;
+		private int elapsedHours;
 
-		private	int minutes = 30 * 60000;
+		private int minutes = 30 * 60000;
 		private int multiMinutes = 60000;
+		private int elapsedMinutes;
 
 		private int seconds = 0;
 		private int multiSeconds = 1000;
+		private int elapsedSeconds;
 
 		private int totalTime;
+		private int timeElapsed;
 
 		public frmMain()
 		{
@@ -31,7 +32,7 @@ namespace WinForms_Graphics_Tests
 			this.TransparencyKey = Color.LimeGreen;*/
 		}
 
-		
+
 		private void chxTopMost_CheckedChanged(object sender, EventArgs e)
 		{
 			this.TopMost = chxTopMost.Checked;
@@ -44,16 +45,18 @@ namespace WinForms_Graphics_Tests
 
 		private void tmrMainDraw_Tick(object sender, EventArgs e)
 		{
-			MessageBox.Show("Ticked.");
-			/*ticks++;
-
-			timeLeft--;
-
-			if (timeLeft == 0)
+			if (timeElapsed >= totalTime)
 			{
 				tmrMainDraw.Stop();
-			}*/
+				MessageBox.Show("Times up.");
+			}
 
+			if (timeElapsed < totalTime)
+			{
+				timeElapsed += tmrMainDraw.Interval;
+			}
+
+			lblTickDebug.Text = string.Format("{0} | {1}", timeElapsed.ToString(), totalTime.ToString());
 
 			Random randomr = new Random();
 			Random randomb = new Random();
@@ -67,18 +70,33 @@ namespace WinForms_Graphics_Tests
 
 			panel1.BackColor = tmpcolor;
 
-			lblTimerTicks.Text = string.Format("Ticks: {0} | Time left:  {2} | Color: {1}", ticks.ToString(), tmpcolor.ToString(), timeLeft.ToString());
+			lblTimerTicks.Text = string.Format("Time Elapsed: {0} | Time left:  {2} | Color: {1}", timeElapsed.ToString(), tmpcolor.ToString(), (totalTime-timeElapsed).ToString());
+
+			Random meow = new Random();
+			lbl3.Font = new Font(FontFamily.GenericSansSerif, meow.Next(1, 200));
+		}
+
+		private void btnReset_Click(object sender, EventArgs e)
+		{
+			tmrMainDraw.Stop();
+			timeElapsed = 0;
+		}
+
+		private void btnPause_Click(object sender, EventArgs e)
+		{
+			tmrMainDraw.Stop();
 		}
 
 		private void btnStartTimer_Click(object sender, EventArgs e)
 		{
-
+			// start timer
+			tmrMainDraw.Start();
 		}
 
 		private void txtHours_TextChanged(object sender, EventArgs e)
 		{
 			int.TryParse(txtHours.Text, out int hour);
-			hours = hour * 3600000;
+			hours = hour * multiHours;
 
 			if (hours <= 0 || txtHours.Text == "")
 			{
@@ -86,8 +104,8 @@ namespace WinForms_Graphics_Tests
 			}
 
 			totalTime = hours + minutes + seconds;
-
-			lblTimer.Text = totalTime.ToString();
+			lblHours.Text = (hours / multiHours).ToString();
+			TotalTime.Text = string.Format("{0:00}:{1:11}:{2:22}", (hours / multiHours).ToString(), (minutes / multiMinutes).ToString(), (seconds / multiSeconds).ToString());
 		}
 
 		private void txtMinutes_TextChanged(object sender, EventArgs e)
@@ -102,8 +120,8 @@ namespace WinForms_Graphics_Tests
 			}
 
 			totalTime = hours + minutes + seconds;
-
-			lblTimer.Text = totalTime.ToString();
+			lblMinutes.Text = (minutes / multiMinutes).ToString();
+			TotalTime.Text = string.Format("{0:00}:{1:11}:{2:22}", (hours / multiHours).ToString(), (minutes / multiMinutes).ToString(), (seconds / multiSeconds).ToString());
 		}
 
 		private void txtSeconds_TextChanged(object sender, EventArgs e)
@@ -117,8 +135,10 @@ namespace WinForms_Graphics_Tests
 			}
 
 			totalTime = hours + minutes + seconds;
-
-			lblTimer.Text = totalTime.ToString();
+			lblSeconds.Text = (seconds / multiSeconds).ToString();
+			TotalTime.Text = string.Format("{0:00}:{1:11}:{2:22}", (hours / multiHours).ToString(), (minutes / multiMinutes).ToString(), (seconds / multiSeconds).ToString());
 		}
+
+		
 	}
 }

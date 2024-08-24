@@ -14,3 +14,4 @@ D:\Code Repo\WinForms_Graphics_Tests_Solutions\WinForms_Graphics_Tests\obj\Debug
 D:\Code Repo\WinForms_Graphics_Tests_Solutions\WinForms_Graphics_Tests\obj\Debug\net8.0-windows\WinForms_Graphics_Tests.pdb
 D:\Code Repo\WinForms_Graphics_Tests_Solutions\WinForms_Graphics_Tests\obj\Debug\net8.0-windows\WinForms_Graphics_Tests.genruntimeconfig.cache
 D:\Code Repo\WinForms_Graphics_Tests_Solutions\WinForms_Graphics_Tests\obj\Debug\net8.0-windows\ref\WinForms_Graphics_Tests.dll
+D:\Code Repo\WinForms_Graphics_Tests_Solutions\WinForms_Graphics_Tests\obj\Debug\net8.0-windows\WinForms_Graphics_Tests.sourcelink.json

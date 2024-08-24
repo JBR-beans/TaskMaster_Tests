@@ -33,7 +33,7 @@
 			chxTopMost = new CheckBox();
 			panel1 = new Panel();
 			lblTimerTicks = new Label();
-			lblTimer = new Label();
+			TotalTime = new Label();
 			txtHours = new TextBox();
 			txtMinutes = new TextBox();
 			txtSeconds = new TextBox();
@@ -41,6 +41,10 @@
 			lblMinutes = new Label();
 			lblSeconds = new Label();
 			btnStartTimer = new Button();
+			btnPause = new Button();
+			btnReset = new Button();
+			lblTickDebug = new Label();
+			lbl3 = new Label();
 			SuspendLayout();
 			// 
 			// tmrMainDraw
@@ -78,14 +82,14 @@
 			lblTimerTicks.TabIndex = 2;
 			lblTimerTicks.Text = "lblTimerTicks";
 			// 
-			// lblTimer
+			// TotalTime
 			// 
-			lblTimer.AutoSize = true;
-			lblTimer.Location = new Point(12, 310);
-			lblTimer.Name = "lblTimer";
-			lblTimer.Size = new Size(50, 15);
-			lblTimer.TabIndex = 3;
-			lblTimer.Text = "lblTimer";
+			TotalTime.AutoSize = true;
+			TotalTime.Location = new Point(118, 336);
+			TotalTime.Name = "TotalTime";
+			TotalTime.Size = new Size(50, 15);
+			TotalTime.TabIndex = 3;
+			TotalTime.Text = "lblTimer";
 			// 
 			// txtHours
 			// 
@@ -142,17 +146,59 @@
 			// 
 			btnStartTimer.Location = new Point(12, 328);
 			btnStartTimer.Name = "btnStartTimer";
-			btnStartTimer.Size = new Size(75, 23);
+			btnStartTimer.Size = new Size(100, 23);
 			btnStartTimer.TabIndex = 10;
 			btnStartTimer.Text = "Start";
 			btnStartTimer.UseVisualStyleBackColor = true;
 			btnStartTimer.Click += btnStartTimer_Click;
+			// 
+			// btnPause
+			// 
+			btnPause.Location = new Point(12, 299);
+			btnPause.Name = "btnPause";
+			btnPause.Size = new Size(100, 23);
+			btnPause.TabIndex = 11;
+			btnPause.Text = "Pause";
+			btnPause.UseVisualStyleBackColor = true;
+			btnPause.Click += btnPause_Click;
+			// 
+			// btnReset
+			// 
+			btnReset.Location = new Point(12, 270);
+			btnReset.Name = "btnReset";
+			btnReset.Size = new Size(100, 23);
+			btnReset.TabIndex = 12;
+			btnReset.Text = "Reset";
+			btnReset.UseVisualStyleBackColor = true;
+			btnReset.Click += btnReset_Click;
+			// 
+			// lblTickDebug
+			// 
+			lblTickDebug.AutoSize = true;
+			lblTickDebug.Location = new Point(12, 9);
+			lblTickDebug.Name = "lblTickDebug";
+			lblTickDebug.Size = new Size(16, 15);
+			lblTickDebug.TabIndex = 13;
+			lblTickDebug.Text = ":3";
+			// 
+			// lbl3
+			// 
+			lbl3.AutoSize = true;
+			lbl3.Location = new Point(324, 209);
+			lbl3.Name = "lbl3";
+			lbl3.Size = new Size(16, 15);
+			lbl3.TabIndex = 14;
+			lbl3.Text = ":3";
 			// 
 			// frmMain
 			// 
 			AutoScaleDimensions = new SizeF(7F, 15F);
 			AutoScaleMode = AutoScaleMode.Font;
 			ClientSize = new Size(800, 450);
+			Controls.Add(lbl3);
+			Controls.Add(lblTickDebug);
+			Controls.Add(btnReset);
+			Controls.Add(btnPause);
 			Controls.Add(btnStartTimer);
 			Controls.Add(lblSeconds);
 			Controls.Add(lblMinutes);
@@ -160,7 +206,7 @@
 			Controls.Add(txtSeconds);
 			Controls.Add(txtMinutes);
 			Controls.Add(txtHours);
-			Controls.Add(lblTimer);
+			Controls.Add(TotalTime);
 			Controls.Add(lblTimerTicks);
 			Controls.Add(panel1);
 			Controls.Add(chxTopMost);
@@ -177,7 +223,7 @@
 		private CheckBox chxTopMost;
 		private Panel panel1;
 		private Label lblTimerTicks;
-		private Label lblTimer;
+		private Label TotalTime;
 		private TextBox txtHours;
 		private TextBox txtMinutes;
 		private TextBox txtSeconds;
@@ -185,5 +231,9 @@
 		private Label lblMinutes;
 		private Label lblSeconds;
 		private Button btnStartTimer;
+		private Button btnPause;
+		private Button btnReset;
+		private Label lblTickDebug;
+		private Label lbl3;
 	}
 }

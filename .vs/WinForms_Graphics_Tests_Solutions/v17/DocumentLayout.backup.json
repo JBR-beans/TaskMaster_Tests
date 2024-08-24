@@ -17,7 +17,7 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 246,
+          "DockedWidth": 200,
           "SelectedChildIndex": 5,
           "Children": [
             {
@@ -48,7 +48,7 @@
               "RelativeDocumentMoniker": "WinForms_Graphics_Tests\\Form1.cs",
               "ToolTip": "D:\\Code Repo\\WinForms_Graphics_Tests_Solutions\\WinForms_Graphics_Tests\\Form1.cs",
               "RelativeToolTip": "WinForms_Graphics_Tests\\Form1.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAawFoAAAADAAAAAAAAAA==",
+              "ViewState": "AQIAAE4AAAAAAAAAAIA3wFoAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-16T16:54:51.857Z",
               "EditorCaption": ""
@@ -62,7 +62,8 @@
               "ToolTip": "D:\\Code Repo\\WinForms_Graphics_Tests_Solutions\\WinForms_Graphics_Tests\\Form1.cs [Design]",
               "RelativeToolTip": "WinForms_Graphics_Tests\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T16:31:59.079Z"
+              "WhenOpened": "2024-08-16T16:31:59.079Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }
